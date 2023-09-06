@@ -52,3 +52,22 @@ python main.py --dataset path --train_percentage 0.4 --AL_method mcvopt
 ```
 
 Here `path` is the path to the `.npy` file of your own dataset. `train_percentage` is the percentage of training pixels, with default value `0.4`. `AL_method` specifies the type of acquisition function to be used in active learning with available choices `"vopt", "uc", "mc", "mcvopt"`
+
+## License
+Copyright (C) 2023 Bohan Chen
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## Contact
+If you have any further questions or run into issues, please feel free to reach out to Bohan Chen. You can email him at [bhchenyz@g.ucla.edu](mailto:bhchenyz@g.ucla.edu).
