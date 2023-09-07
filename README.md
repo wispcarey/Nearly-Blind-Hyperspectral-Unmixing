@@ -51,7 +51,9 @@ After preparing the `.npy` file, you can then run:
 python main.py --dataset path --train_percentage 0.4 --AL_method mcvopt
 ```
 
-Here `path` is the path to the `.npy` file of your own dataset. `train_percentage` is the percentage of training pixels, with default value `0.4`. `AL_method` specifies the type of acquisition function to be used in active learning with available choices `"vopt", "uc", "mc", "mcvopt"`
+Here `path` is the path to the `.npy` file of your own dataset. `train_percentage` is the percentage of training pixels, with default value `0.4`. `AL_method` specifies the type of acquisition function to be used in active learning with available choices `"vopt", "uc", "mc", "mcvopt"`. 
+
+Note that in our GRSU method, there are some parameters that require tuning. Here, we use a fixed empirical value, but for specific datasets, we recommend using grid search to select the most appropriate parameters.
 
 ## License
 Copyright (C) 2023 Bohan Chen
